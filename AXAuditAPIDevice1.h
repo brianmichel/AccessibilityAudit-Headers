@@ -1,0 +1,42 @@
+@protocol AXAuditAPIDevice1 <DTXAllowedRPC>
+  // instance methods
+ -(id)deviceCapabilities
+ -(id)deviceApiVersion
+ -(void)deviceBailWithMessage:(id)arg1 
+ -(id)deviceCurrentState
+ -(id)deviceCaptureScreenshot
+ -(id)deviceRunningApplications
+ -(void)deviceSetAuditUIPid:(id)arg1 
+ -(void)deviceSetAuditTargetPid:(id)arg1 
+ -(id)deviceHumanReadableDescriptionForAuditCaseID:(id)arg1 
+ -(id)deviceAllAuditCaseIDs
+ -(id)auditCaseIDsForAuditGroup:(id)arg1 
+ -(void)deviceBeginAuditCaseIDs:(id)arg1 
+ -(void)deviceHighlightIssue:(id)arg1 
+ -(void)deviceHighlightIssues:(id)arg1 
+ -(void)deviceEnableHighlight:(id)arg1 
+ -(id)deviceAuditIssueSupportedKeys
+ -(void)deviceSetAppMonitoringEnabled:(id)arg1 
+ -(void)deviceInspectorSetMonitoredEventType:(id)arg1 
+ -(void)deviceInspectorLockOnCurrentElement
+ -(void)deviceInspectorShowVisuals:(id)arg1 
+ -(id)deviceInspectorSupportedEventTypes
+ -(id)deviceInspectorCanNavWhileMonitoringEvents
+ -(void)deviceInspectorShowIgnoredElements:(id)arg1 
+ -(id)deviceInspectorSupportsIgnoredElements
+ -(void)deviceInspectorEnable:(id)arg1 
+ -(void)deviceInspectorFocusOnElement:(id)arg1 
+ -(void)deviceInspectorPreviewOnElement:(id)arg1 
+ -(void)deviceInspectorMoveWithOptions:(id)arg1 
+ -(id)deviceFetchSpecialElement:(id)arg1 
+ -(void)deviceInspectorInformCurrentCursorPosition:(id)arg1 
+ -(void)devicePerformFinalCleanup
+ -(id)deviceAccessibilitySettings
+ -(void)deviceUpdateAccessibilitySetting:(id)arg1 withValue:(SEL)arg2 
+ -(void)deviceResetToDefaultAccessibilitySettings
+ -(id)deviceElement:(id)arg1 performAction:(SEL)arg2 withValue:(id)arg3 
+ -(id)deviceElement:(id)arg1 valueForAttribute:(SEL)arg2 
+ -(id)deviceElement:(id)arg1 valueForParameterizedAttribute:(SEL)arg2 withObject:(id)arg3 
+ -(void)deviceElement:(id)arg1 setValue:(SEL)arg2 attribute:(id)arg3 
+
+@end
